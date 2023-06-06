@@ -1,9 +1,123 @@
-<mxfile host="app.diagrams.net" modified="2023-06-06T15:07:41.350Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.1.5" etag="fFQuUYHgUKrKXYhcpSVw" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-06T15:43:07.110Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="J8y5qan5EcW_3yezVWJr" version="21.1.5" type="github">
   <diagram name="Page-1" id="oG0WnzzL4o2r0i4JFNSk">
-    <mxGraphModel>
+    <mxGraphModel dx="1045" dy="932" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="tw-6eL1FDdMMIvjWNZhm-2" value="vercel" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://assets.vercel.com/image/upload/front/favicon/vercel/57x57.png;" vertex="1" parent="1">
+          <mxGeometry x="150" y="33" width="54" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tw-6eL1FDdMMIvjWNZhm-3" value="stellate" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://stellate.co/favicon-128.png;" vertex="1" parent="1">
+          <mxGeometry x="240" y="33" width="58" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="tw-6eL1FDdMMIvjWNZhm-4" value="supabase" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://supabase.com/favicon/apple-touch-icon-114x114.png;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="tw-6eL1FDdMMIvjWNZhm-6" value="cloudflare" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.cloudflare.com/favicon.ico;" vertex="1" parent="1">
+          <mxGeometry x="350" y="27" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="tw-6eL1FDdMMIvjWNZhm-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tw-6eL1FDdMMIvjWNZhm-8" target="tw-6eL1FDdMMIvjWNZhm-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="272" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tw-6eL1FDdMMIvjWNZhm-18" value="No Cache" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tw-6eL1FDdMMIvjWNZhm-15">
+          <mxGeometry x="0.1269" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tw-6eL1FDdMMIvjWNZhm-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tw-6eL1FDdMMIvjWNZhm-8" target="tw-6eL1FDdMMIvjWNZhm-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="272" y="680" />
+              <mxPoint x="702" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tw-6eL1FDdMMIvjWNZhm-21" value="Cache only GET Method" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tw-6eL1FDdMMIvjWNZhm-19">
+          <mxGeometry x="-0.1864" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tw-6eL1FDdMMIvjWNZhm-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tw-6eL1FDdMMIvjWNZhm-8" target="tw-6eL1FDdMMIvjWNZhm-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="272" y="882" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tw-6eL1FDdMMIvjWNZhm-8" value="CDN + Cache" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.cloudflare.com/favicon.ico;" vertex="1" parent="1">
+          <mxGeometry x="240" y="480" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="tw-6eL1FDdMMIvjWNZhm-9" value="R2" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.cloudflare.com/favicon.ico;" vertex="1" parent="1">
+          <mxGeometry x="670" y="850" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="tw-6eL1FDdMMIvjWNZhm-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.062;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tw-6eL1FDdMMIvjWNZhm-11" target="tw-6eL1FDdMMIvjWNZhm-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tw-6eL1FDdMMIvjWNZhm-11" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="57" y="490" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tw-6eL1FDdMMIvjWNZhm-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tw-6eL1FDdMMIvjWNZhm-14" target="tw-6eL1FDdMMIvjWNZhm-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="736" />
+              <mxPoint x="570" y="736" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tw-6eL1FDdMMIvjWNZhm-14" value="stellate" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://stellate.co/favicon-128.png;" vertex="1" parent="1">
+          <mxGeometry x="470" y="710" width="58" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="tw-6eL1FDdMMIvjWNZhm-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tw-6eL1FDdMMIvjWNZhm-16" target="tw-6eL1FDdMMIvjWNZhm-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tw-6eL1FDdMMIvjWNZhm-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tw-6eL1FDdMMIvjWNZhm-16" target="tw-6eL1FDdMMIvjWNZhm-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tw-6eL1FDdMMIvjWNZhm-16" value="gql+rest backend" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.cloudflare.com/favicon.ico;" vertex="1" parent="1">
+          <mxGeometry x="670" y="704" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="tw-6eL1FDdMMIvjWNZhm-22" value="postgresql" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://supabase.com/favicon/apple-touch-icon-114x114.png;" vertex="1" parent="1">
+          <mxGeometry x="970" y="704" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="tw-6eL1FDdMMIvjWNZhm-27" value="write:trigger" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="tw-6eL1FDdMMIvjWNZhm-23" target="tw-6eL1FDdMMIvjWNZhm-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tw-6eL1FDdMMIvjWNZhm-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tw-6eL1FDdMMIvjWNZhm-23" target="tw-6eL1FDdMMIvjWNZhm-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tw-6eL1FDdMMIvjWNZhm-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tw-6eL1FDdMMIvjWNZhm-23" target="tw-6eL1FDdMMIvjWNZhm-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tw-6eL1FDdMMIvjWNZhm-23" value="Auth" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://supabase.com/favicon/apple-touch-icon-114x114.png;" vertex="1" parent="1">
+          <mxGeometry x="970" y="590" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="tw-6eL1FDdMMIvjWNZhm-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tw-6eL1FDdMMIvjWNZhm-24" target="tw-6eL1FDdMMIvjWNZhm-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="850" y="622" />
+              <mxPoint x="850" y="736" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tw-6eL1FDdMMIvjWNZhm-24" value="Cache" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://supabase.com/favicon/apple-touch-icon-114x114.png;" vertex="1" parent="1">
+          <mxGeometry x="870" y="590" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="tw-6eL1FDdMMIvjWNZhm-25" value="ver 0.0.1&lt;br&gt;최대한 코스트를 절약하기위한 멀티클라우드 구성.&lt;br&gt;심하게 성능저하시 변경가능성 큼." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="57" y="150" width="443" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tw-6eL1FDdMMIvjWNZhm-26" value="Realtime / Notification" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://supabase.com/favicon/apple-touch-icon-114x114.png;" vertex="1" parent="1">
+          <mxGeometry x="970" y="450" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="tw-6eL1FDdMMIvjWNZhm-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tw-6eL1FDdMMIvjWNZhm-34" target="tw-6eL1FDdMMIvjWNZhm-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tw-6eL1FDdMMIvjWNZhm-34" value="sveltekit / Front" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://assets.vercel.com/image/upload/front/favicon/vercel/57x57.png;" vertex="1" parent="1">
+          <mxGeometry x="675" y="496" width="54" height="54" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
